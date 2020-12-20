@@ -1,0 +1,48 @@
+body {
+	background-color: #a5a5a5;
+	color: black;
+}
+
+body h1 {
+	color: #950000;
+}
+
+body h4 {
+	margin-bottom: 45px;
+}
+
+a[href] {
+	color: darkblue;
+}
+
+nav {
+	width: 20%;
+	padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+}
+
+button {
+	display: block;
+	background-color: #818181;
+	border: none;
+	color: #c5c5c5;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px 32px;
+	box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #616161}
+
+button:active {
+  background-color: #424242;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+details > summary{
+	width: 10em;
+	background-color: #b1b1b1;
+	border: 1px solid black;
+}

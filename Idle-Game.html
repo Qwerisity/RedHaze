@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Idle Game</title>
+			<link rel="stylesheet" href="style.css">
+		</head>
+		<nav>
+			<button onclick="window.location.href='file:///C:/Users/kyleh/AppData/Roaming/Sublime%20Text%203/Packages/User/we%20are%20gaming.html?';">Homepage</button>
+			<button onclick="window.location.href='file:///C:/Users/kyleh/AppData/Roaming/Sublime%20Text%203/Packages/User/Geometry%20Dash.html';">Geometry Dash</button>
+			<button onclick="window.location.href='file:///C:/Users/kyleh/AppData/Roaming/Sublime%20Text%203/Packages/User/Idle%20Game.html';">My Idle Game</button>
+			<form action="">
+				<label for="test">Test: (It's better if you don't use this)</label>
+				<input type="text" id="test">
+				<input type="submit" value="Submit">
+			</form>x
+			<p>wip</p>
+		</nav>
+		<body>
+			Jumps: <span id="Jumps">0</span><br />
+			Jump Pads: <span id="JumpPad">0</span><br />
+			Dual Portal: <span id="DualPortal">0</span><br /><br />
+
+			<button onclick="Click(DualPortal + 1)">Jump!</button><br /><br />
+
+			<button onclick="BuyJP()">+1 Jump Pad</button><br />
+			Cost: <span id="JPCost">10</span><br /><br />
+
+			<button onclick="BuyDP()">+1 Dual Portal</button><br />
+			Cost: <span id="DPCost">125</span><br /><br />
+
+		</body>
+		<footer>
+			<button onclick="Save()">Save</button><br />
+			<button onclick="Load()">Load</button><br />
+			<button onclick="Delete()">Delete Save (Why?)</button><br />
+			<details>
+				<summary>Help</summary>
+				What is this?<br /><br />
+
+				i don't know lol
+			</details>
+			<script src="IdleClicker.js"></script>
+		</footer>
+	</html>
